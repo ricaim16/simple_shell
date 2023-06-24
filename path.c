@@ -1,6 +1,7 @@
 #include "shell.h"
+
 /**
- * path_execute - executes a command in the path
+ * path_execute - this executes a command in the path
  * @command: full path to the command
  * @vars: pointer to struct of variables
  *
@@ -40,7 +41,7 @@ int path_execute(char *command, vars_t *vars)
 	return (0);
 }
 /**
- * find_path - finds the PATH variable
+ * find_path - it helps find the PATH variable
  * @env: array of environment variables
  *
  * Return: pointer to the node that contains the PATH, or NULL on failure
@@ -61,7 +62,7 @@ char *find_path(char **env)
 	return (env[i]);
 }
 /**
- * check_for_path - checks if the command is in the PATH
+ * check_for_path - this checks if the command is in the PATH
  * @vars: variables
  *
  * Return: void
