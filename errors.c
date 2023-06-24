@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * print_error - prints the error messages to standard error
  * @vars: pointer to struct of variables
@@ -45,7 +44,6 @@ void _puts2(char *str)
 	}
 
 }
-
 /**
  * _uitoa - converts an unsigned int to a string
  * @count: unsigned int to convert
