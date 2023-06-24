@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * _puts - writes a string to standard output
  * @str: string to write
@@ -19,7 +18,6 @@ ssize_t _puts(char *str)
 	}
 	return (len);
 }
-
 /**
  * _strdup - returns pointer to new mem alloc space which contains copy
  * @strtodup: string to be duplicated
@@ -43,7 +41,6 @@ char *_strdup(char *strtodup)
 
 	return (copy);
 }
-
 /**
  * _strcmpr - compares two strings
  * @strcmp1: first string, of two, to be compared in length
